@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
              << appTranslator.load(locale, "i18n", "_", ":/");
     QCoreApplication::installTranslator(&appTranslator);
 
-    QMessageBox::about(nullptr, QObject::tr("about..."),
+    QMessageBox::about(nullptr, QObject::tr("about...xyz"),
                        QObject::tr("Hello world!\nLive long and prosper!"));
     return 0;
 }

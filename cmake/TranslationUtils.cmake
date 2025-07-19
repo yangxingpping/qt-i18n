@@ -82,7 +82,7 @@ function(ADD_QT_TRANSLATIONS_RESOURCE res_file)
 endfunction()
 
 add_custom_target(lupdate
-    COMMAND ${Qt${QT_VERSION_MAJOR}_LUPDATE_EXECUTABLE} -recursive ${PROJECT_SOURCE_DIR} -ts *.ts
+    COMMAND ${Qt${QT_VERSION_MAJOR}_LUPDATE_EXECUTABLE} -recursive ${PROJECT_SOURCE_DIR} -ts i18n_zh.ts i18n_ca.ts
     WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}
     COMMENT "Updating translations"
 )

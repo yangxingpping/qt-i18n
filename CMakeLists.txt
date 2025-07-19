@@ -45,6 +45,7 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Gui Widgets LinguistTools REQ
 
 set(TS_FILES
     i18n_ca.ts
+    i18n_zh.ts
     i18n_es.ts
     i18n_eu.ts
     i18n_gl.ts
@@ -58,7 +59,7 @@ endif()
 
 include(TranslationUtils)
 add_app_translations_resource(APP_RES ${QM_FILES})
-add_qt_translations_resource(QT_RES ca es eu gl)
+add_qt_translations_resource(QT_RES ca es eu gl zh)
 
 add_executable(CMakeI18n
   main.cpp

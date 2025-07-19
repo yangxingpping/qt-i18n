@@ -7,14 +7,13 @@
         <location filename="main.cpp" line="52"/>
         <source>about...xyz</source>
         <oldsource>about...</oldsource>
-        <translation type="unfinished">sobre...</translation>
+        <translation>xyz</translation>
     </message>
     <message>
         <location filename="main.cpp" line="53"/>
         <source>Hello world!
 Live long and prosper!</source>
-        <translation>Hola món!
-Vida llarga i pròspera!</translation>
+        <translation>下一个</translation>
     </message>
 </context>
 </TS>
